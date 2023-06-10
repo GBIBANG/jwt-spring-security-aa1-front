@@ -1,0 +1,20 @@
+
+
+	https://www.creative-tim.com/product/corporate-ui-dashboard#
+
+		07H34- 08H34
+		
+		ekomi-app-front
+		
+		npm install bootstrap@5.2.2 --save
+		
+		npm install jquery@3.6.1 --save
+		
+		npm install font-awesome@4.7.0 --save
+		
+		bootstrap": "^5.2.2",
+		
+		font-awesome": "^4.7.0",
+		
+		3.6.1
+	
