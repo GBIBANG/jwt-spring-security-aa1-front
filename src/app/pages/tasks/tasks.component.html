@@ -1,0 +1,36 @@
+<div class="container mt-3 content-page">
+    <div class="row">
+        <div class="col-md-12">
+            <button class="btn btn-danger" (click)="onNewTask()" *ngIf="authenticationService.isAdmin()"> 
+                New Task
+            </button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-1"> </div>
+        <div class="col-md-10">
+            <div class="card">
+                <div class="card-header bg-dark text-center">
+                    <h3> Liste des tasks </h3>
+                </div>
+                <div class="card-body">
+                   <table class="table table-bordered" *ngIf="tasks">
+                        <thead>
+                           <tr>
+                            <th>Task ID</th>
+                            <th>Task name</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                            <tr *ngFor="let task of tasks">
+                                <td>{{task.id}}</td>
+                                <td>{{task.taskName}}</td>
+                            </tr>
+                        </tbody>
+                   </table>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2"> </div>
+    </div>
+</div>

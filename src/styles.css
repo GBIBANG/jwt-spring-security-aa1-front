@@ -1,0 +1,101 @@
+
+
+/*   SIDEBAR - PAGE */
+
+.sidenav .sidenav-header {
+  margin-top: 2.3%;
+}
+
+.sidenav .sidenav-header .logo-text{
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.sidenav .sidebar-body{
+  padding: 2px;
+}
+
+.sidenav .sidebar-body img{
+  height: 140px;
+}
+
+.sidenav .sidebar-body .sidebar-menu i {
+  margin-right: 3%;
+  color: #fff;
+}
+
+.sidenav .sidebar-body .sidebar-menu a {
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.sidenav .sidebar-body .sidebar-menu a:hover, .sidenav .sidebar-body .sidebar-menu i:hover {
+  color: yellow;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+
+
+/*  GENERALE */
+
+.background-primary {
+  background: #1a237e;
+}
+
+.border-bottom-1 {
+  border-bottom: 1px solid #fff;
+}
+
+.element-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border-table {
+  border: 1px solid rgb(206, 200, 200);
+}
+
+
+
+
+
+.icon-type {
+  color: red;
+}
+
+.td-type {
+  color: red;
+}
+
+
+
+
+
+
+
+
+#icon-sidebar {
+  margin-right: 6px;
+}
+
+#my-border-top {
+  border-top: 1px solid #fff;
+}
+
+.border-bottom-2 {
+  border-bottom: 3px solid #fff;
+}
+
+#my-background-2 {
+  background-color: #fff;
+  color: #1a237e;
+}
+
+#my-color-white {
+  color: #fff;
+}
